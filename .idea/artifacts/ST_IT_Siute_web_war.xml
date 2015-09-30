@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ST.IT.Siute.web:war">
+    <output-path>$PROJECT_DIR$/ST.IT.Siute.web/target</output-path>
+    <root id="archive" name="ST.IT.Suite.web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ST.IT.Siute.web:war exploded" />
+    </root>
+  </artifact>
+</component>

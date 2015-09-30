@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1443601277961
+Build-Jdk: 1.8.0_60
+Built-By: Dostanko_VL
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/hawtio-plugin-mbean-1.2-
+ redhat-379.jar,WEB-INF/lib/ST.IT.Suite.api-1.0-SNAPSHOT.jar
+Bundle-ManifestVersion: 2
+Bundle-Name: by.st.ST.IT.Suite.web
+Bundle-SymbolicName: by.st.ST.IT.Suite.web
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: true
+Embedded-Artifacts: WEB-INF/lib/hawtio-plugin-mbean-1.2-redhat-379.jar;g
+ ="io.hawt";a="hawtio-plugin-mbean";v="1.2-redhat-379",WEB-INF/lib/ST.IT
+ .Suite.api-1.0-SNAPSHOT.jar;g="by.st";a="ST.IT.Suite.api";v="1.0-SNAPSH
+ OT"
+Implementation-Title: HawtIO
+Implementation-Version: 1.0-SNAPSHOT
+Import-Package: javax.management;resolution:=optional,org.osgi.service.b
+ lueprint;version="[1.0.0,2.0.0)";resolution:=optional,org.slf4j;resolut
+ ion:=optional
+Tool: Bnd-1.50.0
+Web-ContextPath: /hawtio/suite-plugin
+Webapp-Context: /hawtio/suite-plugin

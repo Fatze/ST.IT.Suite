@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ST.IT.Siute.web/ST.IT.Siute.web.iml" filepath="$PROJECT_DIR$/ST.IT.Siute.web/ST.IT.Siute.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ST.IT.Suite.iml" filepath="$PROJECT_DIR$/ST.IT.Suite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ST.IT.Suite.api/ST.IT.Suite.api.iml" filepath="$PROJECT_DIR$/ST.IT.Suite.api/ST.IT.Suite.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ST.IT.Suite.feature/ST.IT.Suite.feature.iml" filepath="$PROJECT_DIR$/ST.IT.Suite.feature/ST.IT.Suite.feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ST.IT.Suite.profile/ST.IT.Suite.profile.iml" filepath="$PROJECT_DIR$/ST.IT.Suite.profile/ST.IT.Suite.profile.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ST.IT.Siute.web:war exploded">
+    <output-path>$PROJECT_DIR$/ST.IT.Siute.web/target/ST.IT.Suite.web-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ST.IT.Siute.web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: io.hawt:hawtio-plugin-mbean:1.2-redhat-379" />
+          <element id="archive" name="ST.IT.Suite.api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ST.IT.Suite.api" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ST.IT.Siute.web/target/ST.IT.Suite.web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ST.IT.Siute.web/web/Web" />
+    </root>
+  </artifact>
+</component>

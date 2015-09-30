@@ -1,0 +1,66 @@
+<!--<div>
+    <tabset justified="true">
+        <tab heading="Threads">
+            <div ng-controller="SimpleController">
+                <div class="row-fluid">
+                    <div class="span2">
+                        {{hello}}
+                    </div>
+                    <div class="span2">
+                        {{jolokia1}}
+                    </div>
+                        <div class="span4">
+                          CPU Load: {{cpuLoad}}
+                        </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        This is an example of a very simple hawtio plugin that's discovered via JMX using jolokia.
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        {{response}}
+                    </div>
+                </div>
+            </div></tab>
+        <tab heading="Alias">
+            <div ng-controller="ExampleController">
+                <form novalidate class="simple-form">
+                    Name: <input type="text" ng-model="user.name" /><br />
+                    E-mail: <input type="email" ng-model="user.email" /><br />
+                    Gender: <input type="radio" ng-model="user.gender" value="male" />male
+                    <input type="radio" ng-model="user.gender" value="female" />female<br />
+                    <input type="button" ng-click="reset()" value="Reset" />
+                    <input type="submit" ng-click="update(user)" value="Save" />
+                </form>
+                <pre>form = {{user| json}}</pre>
+                <pre>master = {{master| json}}</pre>
+            </div></tab>
+        <tab heading="Channel">Long Labeled Justified content</tab>
+    </tabset>
+</div>-->
+<div ng-controller="TabsDemoCtrl">
+    <tabset justified="true">
+        <tab heading="Threads">
+            <div ng-controller="ThreadController">
+                <div class="row-fluid">
+                    <div class="span2">
+                        {{threads}}
+                    </div>
+                </div>
+                <table>
+                    <tr ng-repeat="thread in threads">
+                        <td>{{thread}}</td>
+                    </tr>
+                </table>
+            </div>
+        </tab>
+        <tab heading="Aliases">
+<!--            <div  ng-controller="AliasController">
+            </div>-->
+        </tab>
+        <tab heading="Channels">Long Labeled Justified content</tab>
+    </tabset>
+</div>
+

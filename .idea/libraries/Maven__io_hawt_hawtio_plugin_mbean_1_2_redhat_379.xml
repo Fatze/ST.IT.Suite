@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.hawt:hawtio-plugin-mbean:1.2-redhat-379">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/hawt/hawtio-plugin-mbean/1.2-redhat-379/hawtio-plugin-mbean-1.2-redhat-379.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/hawt/hawtio-plugin-mbean/1.2-redhat-379/hawtio-plugin-mbean-1.2-redhat-379-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/hawt/hawtio-plugin-mbean/1.2-redhat-379/hawtio-plugin-mbean-1.2-redhat-379-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

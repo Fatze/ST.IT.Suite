@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="ST.IT.Suite-1.0-SNAPSHOT">
+    <feature name="ST.IT.Suite.feature" version="1.0-SNAPSHOT" resolver="(obr)">
+        <details>A simple example plugin for hawtio</details>
+        <feature>war</feature>
+        <bundle>mvn:by.st/ST.IT.Suite.web/1.0-SNAPSHOT/war</bundle>
+    </feature>
+</features>
